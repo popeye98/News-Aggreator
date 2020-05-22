@@ -12,7 +12,7 @@ def index(req):
 
     toi_headings = toi_soup.find_all('h2')
 
-    toi_headings = toi_headings[0:-13] # removing footers
+    toi_headings = toi_headings[2:-13] # removing footers
 
     toi_news = []
 
